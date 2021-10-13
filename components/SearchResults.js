@@ -11,8 +11,8 @@ function SearchResults({ results }) {
                 <div key={result.link} className="max-w-xl mb-5">
                     <div className="group cursor-pointer">
                         <a href={`${result.link}`}
-                         className="text-sm" >
-                            {result.formattedUrl}
+                         className="truncate text-sm" style={{wordBreak:"break-all"}} >
+                            {result.formattedUrl.length > 40 ? result.formattedUrl.substring(0,40)+" ..." : result.formattedUrl }
                         </a>
                         <a href={`${result.link}`}>
                             <h2 className="truncate text-xl text-blue-800 font-medium group-hover:underline">{result.title}</h2>
