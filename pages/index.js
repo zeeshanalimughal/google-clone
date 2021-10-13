@@ -50,26 +50,23 @@ const router = useRouter();
 
       {/* Body */}
 
-      <form className="flex flex-col  items-center mt-44 flex-grow w-4/5">
+      <form className="flex flex-col mt-14  items-center md:mt-36 flex-grow w-4/5">
 
-        <Image
-          width={300}
-          height={100}
-          src="https://www.google.co.uk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+        <img
+          src="google.svg"
         />
 
         <div className="flex w-full mt-5 hover:shadow-md focus-within:shadow-md max-w-md rounded-full border border-gray-200 px-5 py-3 sm:max-w-xl lg:max-w-2xl">
           <SearchIcon className="h-5 mr-3 text-gray-500" />
           <input type="text" className="focus:outline-none flex-grow" ref={searchInputRef} placeholder="Search Google or type a URL" />
-          {/* <MicrophoneIcon className="h-5 to-gray-500" /> */}
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/417px-Google_mic.svg.png"
+          <img src="googlemic.svg"
           className="h-5 cursor-pointer"
           />
         </div>
 
-        <div className="flex flex-col w-1/2  space-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm:space-x-4">
+        <div className="flex mb-5 flex-col w-1/2  space-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm:space-x-4">
           <button onClick={search} className="btn">Google Search</button>
-          <button onClick={search} className="btn">I am Feeling Luckey</button>
+          <button onClick={search} className="btn">Feeling Luckey</button>
         </div>
       </form>
 
