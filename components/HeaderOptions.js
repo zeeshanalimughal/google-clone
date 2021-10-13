@@ -15,7 +15,7 @@ function HeaderOptions() {
             </div>
 
             {/* Right */}
-            <div className="space-x-4 hidden md:inline-block">
+            <div className="space-x-4 hidden md:flex">
                 <p className="link">Settings</p>
                 <p className="link">Tools</p>
             </div>
