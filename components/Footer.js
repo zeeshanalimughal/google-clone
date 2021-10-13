@@ -7,7 +7,7 @@ function Footer() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 grid-flow-row-dense px-8 py-3">
                 <div className="flex justify-center items-center md:col-span-2 lg:col-span-1 lg:col-start-2">
-                 <GlobeAltIcon className="h-5 text-green-700"/>   All Rights Reserved | Zeesha Ali {new Date().getFullYear()}
+                 <GlobeAltIcon className="h-5 text-green-700"/>   All Rights Reserved | Zeeshan Ali {new Date().getFullYear()}
                 </div>
                 <div className="flex justify-center space-x-8 whitespace-nowrap md:justify-self-start">
                     <p>Advertising</p>
